@@ -1,0 +1,30 @@
+[
+  {
+    "prod": "no",
+    "platform": "Platform",
+    "name": "Documents",
+    "category": "Core",
+    "dev": "yes",
+    "int": "yes",
+    "qa": "no"
+  },
+  {
+    "prod": "yes",
+    "platform": "Platform",
+    "name": "Search",
+    "category": "Core",
+    "dev": "yes",
+    "int": "yes",
+    "qa": "yes"
+  },
+  {
+    "prod": "yes",
+    "platform": "Platform",
+    "name": "UI Toolkit",
+    "category": "Toolkit",
+    "dev": "yes",
+    "int": "yes",
+    "qa": "yes"
+  }
+]
+

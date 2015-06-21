@@ -1,0 +1,40 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+body {
+  padding: 50px;
+  font: 14px "Arial", Helvetica, Arial, sans-serif;
+  background-color: rgba(244, 242, 238, 0.94);
+}
+
+a {
+  color: #00B7FF;
+}
+
+#domains {
+    padding-top: 10px;
+}
+
+.listing-category {
+  float: right;
+}
+
+.listing-realm {
+  margin: 2px;
+}
+
+.list-group-item {
+  background-color: rgba(244, 242, 238, 0.94);
+}
+
+.list-group-item-heading.fa {
+  color: #5972A0;
+}
+
+span.input-group-addon {
+  background-color: white;
+}
+
+.col-md-2 {
+  padding-top: 0.5em;
+  font-size: 1.1em;
+}
