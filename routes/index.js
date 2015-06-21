@@ -81,6 +81,7 @@ var _index_settings = {
     }
 };
 
+var _search_fields = ["name^100", "platform^20", "category^5", "dev^3", "int^10", "qa^50"];
 
 var _simple_suggest_phrase = {
     "field": "name",
@@ -203,7 +204,7 @@ router.get('/', function(req, res) {
                     "query": {
                         "multi_match": {
                             "query": queryString,
-                            "fields": ["name^100", "platform^20", "category^5", "dev^3", "int^10", "qa^50"],
+                            "fields": _search_fields,
                             "fuzziness": 1
                         }
                     },
@@ -227,7 +228,6 @@ router.get('/', function(req, res) {
         console.trace(err.message);
         res.render('index', {title: 'Platforms', response: err.message});
     });
-    //res.render('index', { title: 'Platforms' });
 });
 
 module.exports = router;
