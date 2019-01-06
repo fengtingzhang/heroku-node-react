@@ -8,7 +8,7 @@
     "postinstall": "gulp default"
   },
   "dependencies": {
-    "body-parser": "~1.10.1",
+    "body-parser": "~1.18.3",
     "bootstrap": "^3.3.5",
     "bootstrap-sass": "^3.3.5",
     "browserify": "^16.2.3",
