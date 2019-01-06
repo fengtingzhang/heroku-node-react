@@ -1,7 +1,6 @@
 var React = require('react');
-var createReactClass = require('create-react-class');
 
-module.exports = createReactClass({
+module.exports = React.createClass({
     getInitialState: function(){
         return { filterString: '' };
     },
