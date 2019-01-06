@@ -1,6 +1,6 @@
-var React = require('react');
+var createReactClass = require('create-react-class');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     getInitialState: function(){
         return { filterString: '' };
     },
@@ -26,13 +26,13 @@ module.exports = React.createClass({
                       <input type="text" id="filter-by" className="form-control" value={this.state.filterString} onChange={this.handleChange} placeholder="Filter" />
                       <span className="input-group-addon" id="basic-addon"><i className="fa fa-search"></i></span>
                     </div>
-                    <ul className="list-group"> 
-                        { 
+                    <ul className="list-group">
+                        {
                             domains.map(function(l){
                                 return <li className="list-group-item"><i className="fa fa-cube"></i>{l.name}
                                             <a href={l.url}>{l.url}</a>
                                        </li>
-                            }) 
+                            })
                         }
                     </ul>
                 </div>;
