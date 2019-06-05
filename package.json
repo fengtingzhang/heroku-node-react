@@ -14,7 +14,7 @@
     "browserify": "^16.2.3",
     "cookie-parser": "~1.4.3",
     "debug": "~4.1.1",
-    "elasticsearch": "^15.2.0",
+    "elasticsearch": "^16.1.1",
     "express": "~4.16.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
