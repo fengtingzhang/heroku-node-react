@@ -23,7 +23,7 @@
     "jquery": "^3.3.1",
     "morgan": "~1.9.1",
     "node-sass": "^4.11.0",
-    "react": "^0.12.2",
+    "react": "^17.0.0",
     "reactify": "^1.0.0",
     "serve-favicon": "~2.5.0",
     "vinyl-source-stream": "^2.0.0"
